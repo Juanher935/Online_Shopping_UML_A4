@@ -24,7 +24,7 @@ public class Account {
         open = new Date();
         cart = new shoppingCart();
         orders = new Order[100];
-        if (Main.whitebox) System.out.println("Account(): " + this);
+        if (Main.whitebox) System.out.println("Empty Account: " + this);
     }
 
     //Create an account with web user info
@@ -34,7 +34,7 @@ public class Account {
         open = new Date();
         cart = new shoppingCart();
         orders = new Order[100];
-        if(Main.whitebox) System.out.println("Account(webuser): " + this);
+        if(Main.whitebox) System.out.println("Account WebUser info: " + this);
     }
 
     //Create an account with address parameter
@@ -45,7 +45,7 @@ public class Account {
         open = new Date();
         cart = new shoppingCart();
         orders = new Order[100];
-        if(Main.whitebox) System.out.println("Account(address): " + this);
+        if(Main.whitebox) System.out.println("Account Address Info: " + this);
     }
 
     //return ID

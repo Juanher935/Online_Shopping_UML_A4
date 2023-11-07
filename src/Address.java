@@ -17,12 +17,12 @@ public class Address {
     }
 
 
-    public Address(String s1, String s2, String s3, String s4, String s5) {
-        street = s1;
-        city = s2;
-        state = s3;
-        zipcode = s4;
-        country = s5;
+    public Address(String streetName, String cityName, String stateName, String zipcodeNum, String countryName) {
+        street = streetName;
+        city = cityName;
+        state = stateName;
+        zipcode = zipcodeNum;
+        country = countryName;
     }
 
     public String toString() {
